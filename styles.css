@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgray;
+    background-color: rgb(50, 69, 95);
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 120px;
+    height:30px ;
+    margin-left: 20px;
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(88, 183, 238);
+    color: #fff;
+}
+button:hover{
+    background-color: rgb(58, 74, 95);
+    transition: 0.3s;
+}
+.container{
+    opacity: 1;
+    margin-top: 20%;
+}
+#age{
+    font-size: 38px;
+    margin-top: 20%;
+    font-weight:600;
+    position: absolute;
+}
+#birthdate{
+    margin-top: 5px;
+    width: 160px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+}
