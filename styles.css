@@ -2,8 +2,8 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: darkgray;
-    background-color: rgb(50, 69, 95);
+    color: rgb(130, 214, 240);
+    background-color: rgb(219, 247, 184);
     display: flex;
     justify-content: center;
 }
@@ -38,3 +38,10 @@ button:hover{
     text-align: center;
     border: 0;
 }
+@media (max-width: 768px) {
+    #age{
+        margin-top: 50%;
+    }
+    
+}
+
