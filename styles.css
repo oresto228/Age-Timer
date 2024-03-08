@@ -38,6 +38,14 @@ button:hover{
     text-align: center;
     border: 0;
 }
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff; /* Змініть на потрібний колір */
+    padding: 10px; /* Призначте потрібний відступ */
+    text-align: center; /* Або інше вирівнювання, якщо потрібно */
+}
 @media (max-width: 768px) {
     #age{
         margin-top: 50%;
