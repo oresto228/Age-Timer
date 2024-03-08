@@ -49,6 +49,7 @@ footer{
 @media (max-width: 768px) {
     #age{
         margin-top: 50%;
+        font-size: 30px;
     }
     
 }
